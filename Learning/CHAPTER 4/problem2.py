@@ -1,0 +1,15 @@
+marks=[]
+
+a=int(input("MARKS 1 : "))
+marks.append(a)
+a=int(input("MARKS 2 : "))
+marks.append(a)
+a=int(input("MARKS 3 : "))
+marks.append(a)
+a=int(input("MARKS 4 : "))
+marks.append(a)
+a=int(input("MARKS 5 : "))
+marks.append(a)
+print(marks)
+marks.sort()
+print(marks)
